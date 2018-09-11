@@ -1,0 +1,1 @@
+Tip calculator is a simple web app that calculates the tip, and total amount for each person. This is for learning purposes (Javascript).
