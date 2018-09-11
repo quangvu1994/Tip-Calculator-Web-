@@ -14,11 +14,11 @@ function calculation(e) {
 
         // Display the result
         if (!isNaN(tip_per_person)) {
-            document.getElementById("final-tip-value").innerHTML = tip_per_person;
+            document.getElementById("final-tip-value").innerHTML = tip_per_person.toFixed(2);
         }
 
         if (!isNaN(total_amount_per_person)) {
-            document.getElementById("total-value").innerHTML = total_amount_per_person;
+            document.getElementById("total-value").innerHTML = total_amount_per_person.toFixed(2);
         }
     }
 
